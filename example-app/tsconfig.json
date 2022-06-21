@@ -71,5 +71,8 @@
   },
   "include": [
     "src"
+  ],
+  "references": [
+    { "path": "../example-lib/" }
   ]
 }
