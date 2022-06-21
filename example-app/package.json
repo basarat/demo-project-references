@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
     "start": "npm run build -- --watch"
   },
   "keywords": [],
