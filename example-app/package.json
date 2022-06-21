@@ -1,0 +1,25 @@
+{
+  "name": "demo-example-app",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:jest": "jest",
+    "build:tsc": "tsc -p .",
+    "dev:jest": "npm run build:jest -- --watch",
+    "dev:tsc": "npm run build:tsc -- --watch",
+    "build": "npm run build:jest && npm run build:tsc",
+    "start": "node lib/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "bas@basarat.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "28.1.2",
+    "jest": "28.1.1",
+    "nodemon": "2.0.16",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.8.1",
+    "typescript": "4.7.4"
+  }
+}
