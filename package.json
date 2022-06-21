@@ -1,0 +1,19 @@
+{
+  "name": "demo-project-references",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basarat/demo-project-references.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basarat/demo-project-references/issues"
+  },
+  "homepage": "https://github.com/basarat/demo-project-references#readme",
+  "workspaces": [
+    "example-app",
+    "example-lib"
+  ]
+}
