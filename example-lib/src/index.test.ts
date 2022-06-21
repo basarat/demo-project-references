@@ -1,3 +1,0 @@
-test('it should pass', () => {
-
-});
